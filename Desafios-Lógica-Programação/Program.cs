@@ -30,6 +30,10 @@ namespace Desafios_Lógica_Programação
             Console.WriteLine("DESAFIO 4 \n");
             desafio4.CheckNumberSign();
 
+            Desafio5 desafio5 = new Desafio5(15, 24);
+            Console.WriteLine("DESAFIO 5 \n");
+            desafio5.CalculateTotalTime();
+
             Console.ReadLine();
         }
     }
