@@ -22,6 +22,10 @@ namespace Desafios_Lógica_Programação
             desafio2.MultiplyValues();
             desafio2.DivideValues();
 
+            Desafio3 desafio3 = new Desafio3(2000, 10000, 5);
+            Console.WriteLine("DESAFIO 3 \n");
+            desafio3.CalculateTotalAmount();
+
             Console.ReadLine();
         }
     }
