@@ -15,6 +15,13 @@ namespace Desafios_Lógica_Programação
             desafio1.ShowValuesInOrder();
             desafio1.ShowValuesInDiferentOrder();
 
+            Desafio2 desafio2 = new Desafio2(10, 52);
+            Console.WriteLine("DESAFIO 2 \n");
+            desafio2.AddValues();
+            desafio2.SubtractValues();
+            desafio2.MultiplyValues();
+            desafio2.DivideValues();
+
             Console.ReadLine();
         }
     }
