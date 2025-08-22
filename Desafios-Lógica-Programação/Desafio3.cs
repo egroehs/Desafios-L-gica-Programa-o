@@ -25,7 +25,7 @@ namespace Desafios_Lógica_Programação
 
             double totalSalary = commissionValue + Salary;
 
-            Console.WriteLine($"Total salary with commission: ${totalSalary}.");
+            Console.WriteLine($"Total salary with commission: ${totalSalary}. \n\n");
         }
     }
 }

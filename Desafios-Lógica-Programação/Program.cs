@@ -26,6 +26,10 @@ namespace Desafios_Lógica_Programação
             Console.WriteLine("DESAFIO 3 \n");
             desafio3.CalculateTotalAmount();
 
+            Desafio4 desafio4 = new Desafio4(0);
+            Console.WriteLine("DESAFIO 4 \n");
+            desafio4.CheckNumberSign();
+
             Console.ReadLine();
         }
     }
