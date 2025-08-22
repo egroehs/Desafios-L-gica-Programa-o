@@ -48,6 +48,9 @@
     <Compile Include="Desafio2.cs" />
     <Compile Include="Desafio4.cs" />
     <Compile Include="Desafio5.cs" />
+    <Compile Include="Desafio7.cs" />
+    <Compile Include="Desafio8.cs" />
+    <Compile Include="Desafio9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

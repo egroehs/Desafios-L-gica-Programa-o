@@ -16,23 +16,38 @@ namespace Desafios_Lógica_Programação
             desafio1.ShowValuesInDiferentOrder();
 
             Desafio2 desafio2 = new Desafio2(10, 52);
-            Console.WriteLine("DESAFIO 2 \n");
+            Console.WriteLine("\nDESAFIO 2 \n");
             desafio2.AddValues();
             desafio2.SubtractValues();
             desafio2.MultiplyValues();
             desafio2.DivideValues();
 
             Desafio3 desafio3 = new Desafio3(2000, 10000, 5);
-            Console.WriteLine("DESAFIO 3 \n");
+            Console.WriteLine("\nDESAFIO 3 \n");
             desafio3.CalculateTotalAmount();
 
             Desafio4 desafio4 = new Desafio4(0);
-            Console.WriteLine("DESAFIO 4 \n");
+            Console.WriteLine("\nDESAFIO 4 \n");
             desafio4.CheckNumberSign();
 
-            Desafio5 desafio5 = new Desafio5(15, 24);
-            Console.WriteLine("DESAFIO 5 \n");
+            Desafio5 desafio5 = new Desafio5(15, 0);
+            Console.WriteLine("\nDESAFIO 5 \n");
             desafio5.CalculateTotalTime();
+
+            Desafio7 desafio7 = new Desafio7(15, 24, 1);
+            Console.WriteLine("\nDESAFIO 7 \n");
+            desafio7.OrderAsc();
+
+            Desafio8 desafio8 = new Desafio8();
+            Console.WriteLine("\nDESAFIO 8 \n");
+            desafio8.PrintNumbersFrom1To25();
+
+            Console.WriteLine("\nDESAFIO 8 Pt.2 \n");
+            desafio8.PrintNumberFrom10To200();
+
+            Desafio9 desafio9 = new Desafio9();
+            Console.WriteLine("\nDESAFIO 9 \n");
+            desafio9.PrintMultiplicationTable(12);
 
             Console.ReadLine();
         }
