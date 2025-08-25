@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Desafio10.cs" />
+    <Compile Include="Desafio11.cs" />
+    <Compile Include="Desafio12.cs" />
+    <Compile Include="Desafio13.cs" />
     <Compile Include="Desafio3.cs" />
     <Compile Include="Desafio1.cs" />
     <Compile Include="Desafio2.cs" />

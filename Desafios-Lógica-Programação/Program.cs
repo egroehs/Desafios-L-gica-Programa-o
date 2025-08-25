@@ -52,6 +52,12 @@ namespace Desafios_Lógica_Programação
             Desafio10.SetWithdrawalAmount(2000);
             Desafio10.Withdrawal();
 
+            Desafio11.SecondsToHours(3600);
+
+            Desafio12.nameSearch("Eduarda");
+
+            int[] numbers = { -10, 5, -3, 8, -7, 2, -1, 6, -4, 9 };
+            Desafio13.AnalyzeNumberArray(numbers);
             Console.ReadLine();
         }
     }
