@@ -58,6 +58,10 @@ namespace Desafios_Lógica_Programação
 
             int[] numbers = { -10, 5, -3, 8, -7, 2, -1, 6, -4, 9 };
             Desafio13.AnalyzeNumberArray(numbers);
+
+            Desafio14 desafio14 = new Desafio14(numbers);
+            desafio14.StartMenu();
+
             Console.ReadLine();
         }
     }
