@@ -49,6 +49,9 @@ namespace Desafios_Lógica_Programação
             Console.WriteLine("\nDESAFIO 9 \n");
             desafio9.PrintMultiplicationTable(12);
 
+            Desafio10.SetWithdrawalAmount(2000);
+            Desafio10.Withdrawal();
+
             Console.ReadLine();
         }
     }
